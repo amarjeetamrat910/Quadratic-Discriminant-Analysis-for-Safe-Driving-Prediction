@@ -1,1 +1,3 @@
 # Quadratic-Discriminant-Analysis-for-Safe-Driving-Prediction
+
+This repository contains Python code demonstrating the use of Quadratic Discriminant Analysis (QDA) for predicting safe driving conditions based on speed limits and population density. The script imports necessary libraries (`numpy`, `pandas`, and `sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis`), defines arrays for input features (`X`) and labels (`y`), and creates a QDA model trained on predefined data points. It then uses the trained model to predict whether driving conditions are safe or not for given speed and population density inputs. The output message indicates whether it is safe to drive based on the model's prediction.
